@@ -1,2 +1,3 @@
 hello going to learn scripting...
 
+thi is a dummy file.
