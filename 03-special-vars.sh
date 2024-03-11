@@ -1,7 +1,7 @@
 echo Value of 0 - $0   # $0 prints the script name you're executing
 echo Value of 1 - $1   #$ arg1
 echo Value of 2 - $2   # $arg2
-echo "Value of * - $*"   # $* is going to print the used arguments/inputs
+echo "Value of * - $*"   # $* is going to print the all used arguments/inputs
 echo "Value of # - $# "  # $# is going to print the number of arguments/inputs
 
 
