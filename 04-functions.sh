@@ -17,3 +17,5 @@ example1() {
 }
 
 example1 10 20 30
+
+example1 "$*"      # to give values from script execution time
