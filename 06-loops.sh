@@ -9,7 +9,7 @@
 
 # while loop works withe expression
 
-i=10
+i=0
 
 while [ $i -lt 10 ]; do
   echo i - $i
