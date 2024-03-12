@@ -104,7 +104,7 @@ EOF
 x=$1
 
 if [ $x -gt 100 ]; then
-  echo $x is less than than 100
+  echo $x is greather than than 100
 
 else
   echo $x is less than than 100
