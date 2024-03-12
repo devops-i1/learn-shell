@@ -101,7 +101,7 @@ Operators in File expressions:
 EOF
 
 
-x=10
+x=$1
 
 if [ $x -gt 100 ]; then
   echo $x is less than than 100
