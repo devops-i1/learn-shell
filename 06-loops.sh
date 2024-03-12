@@ -15,3 +15,10 @@ while [ $i -lt 10 ]; do
   echo i - $i
   i=$(($i+1))
 done
+
+
+# For loop
+
+for val in 10 20 30 40 50 ; do
+  echo "Value is $val"
+done
