@@ -124,11 +124,11 @@ if [ -z "$x" ]; then    # If variable x is missing
   exit 1                   # exit command to exit the script with report
 fi
 
+# Variables in expressions better to provide in double quotes.
 
-
-if [ $x -gt 100 ]; then
-  echo $x is greather than than 100
+if [ "$x" -gt 100 ]; then
+  echo "$x is greather than than 100"
 
 else
-  echo $x is less than than 100
+  echo "$x is less than than 100"
 fi
