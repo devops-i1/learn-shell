@@ -100,6 +100,8 @@ Operators in File expressions:
 
 EOF
 
+<< EOF
+Example for if condition:
 
 x=$1
 
@@ -110,6 +112,7 @@ else
   echo $x is less than than 100
 fi
 
+EOF
 
 # Handle input missing
 #-------------------------
@@ -118,6 +121,7 @@ x=$1
 
 if [ -z "$x" ]; then    # If variable x is missing
   echo Input is missing
+  exit
 fi
 
 
