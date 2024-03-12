@@ -26,4 +26,7 @@ echo "$x"
 # Arithmetic  Sub
 # A Arithmetic expression sovled and output to a variable then command sub
 y=$((2+3))
+echo "$y"
+
 z=$((2+3-5/2*10))
+echo $z
