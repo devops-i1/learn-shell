@@ -106,10 +106,10 @@ Example for if condition:
 x=$1
 
 if [ $x -gt 100 ]; then
-  echo $x is greather than than 100
+  echo "$x is greater than than 100"
 
 else
-  echo $x is less than than 100
+  echo "$x is less than than 100"
 fi
 
 EOF
@@ -127,7 +127,7 @@ fi
 # Variables in expressions better to provide in double quotes.
 
 if [ "$x" -gt 100 ]; then
-  echo "$x is greather than than 100"
+  echo "$x is greater than than 100"
 
 else
   echo "$x is less than than 100"
