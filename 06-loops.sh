@@ -18,6 +18,14 @@ done
 
 
 # For loop
+# Example
+<<EOF
+for fruit in apple banana orange ; do
+  echo Fruit - $fruit
+done
+
+EOF
+
 
 for val in 10 20 30 40 50 ; do
   echo "Value is $val"
