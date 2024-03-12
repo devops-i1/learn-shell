@@ -121,7 +121,7 @@ x=$1
 
 if [ -z "$x" ]; then    # If variable x is missing
   echo Input is missing
-  exit
+  exit 0                      # exit command to exit the script with report
 fi
 
 
