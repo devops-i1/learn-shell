@@ -21,3 +21,8 @@ echo $b
 # syntax : var=$(command)
 x=$(uptime)
 
+
+# Arithmetic  Sub
+# A Arithmetic expression sovled and output to a variable then command sub
+y=$((2+3))
+z=$((2+3-5/2*10))
