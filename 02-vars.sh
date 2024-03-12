@@ -20,6 +20,7 @@ echo $b
 # A command output if we want in a variable then command sub
 # syntax : var=$(command)
 x=$(uptime)
+echo "$x"
 
 
 # Arithmetic  Sub
