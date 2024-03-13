@@ -1,3 +1,5 @@
+# How to print a line or word ( use echo )
+
 echo Hello World!
 
 
