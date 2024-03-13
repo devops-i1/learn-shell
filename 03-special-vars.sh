@@ -4,6 +4,10 @@ echo Value of 2 - $2   # $arg2
 echo "Value of * - $*"   # $* is going to print the all used arguments/inputs
 echo "Value of # - $# "  # $# is going to print the number of arguments/inputs
 
+echo '$$'    # $$ is going to print the PID of the current process
+echo '$?'    # $? is going to print the exit code of the last command.
+
+
 
 #  bash scriptName.sh  arg1  arg2  arg3
 
