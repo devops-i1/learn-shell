@@ -19,3 +19,14 @@ example1() {
 example1 10 20 30
 
 example1 "$*"      # to give values from script execution time
+
+
+# functions with return scenario
+
+example3() {
+  echo hai
+  return 10
+  echo bye
+}
+example3
+echo return status - $?
