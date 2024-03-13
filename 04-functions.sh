@@ -28,5 +28,5 @@ example3() {
   return 10
   echo bye
 }
-example3
+example3                     # It will stop at return only not moves to further
 echo return status - $?
